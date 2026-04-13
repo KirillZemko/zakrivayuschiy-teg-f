@@ -1,1 +1,13 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --main-font: 'Inter';
+  --font-wght-card-title: 715;
+  --font-wght-card-text: 410;
+  --accent-font: 'PressStart2P';
+  --background-img: repeating-linear-gradient(#d3d3d3, transparent 2px), repeating-linear-gradient(90deg, #d3d3d3, transparent 2px), linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a 100%);
+  --container-width: clamp(320px, 100vw, 1140px);
+  --header-logo-size: clamp(3.0625rem, 2.5723rem + 2.0915vw, 4.0625rem);
+  --header-title-size: clamp(0.875rem, 0.5993rem + 1.1765vw, 1.4375rem);
+  --header-inline-size: clamp(23.4375rem, 13.4804rem + 42.4837vw, 43.75rem);
+  --header-block-size: clamp(20.4375rem, 19.1814rem + 5.3595vw, 23rem);
+}
