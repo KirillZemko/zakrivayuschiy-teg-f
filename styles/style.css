@@ -14,7 +14,7 @@
   min-inline-size: 320px;
   min-block-size: 100dvb;
   font-family: var(--main-font), sans-serif;
-  /* font-variation-settings: 'wght' var(--font-wght-text); */
+  font-variation-settings: 'wght' var(--font-wght-text);
   background-image: var(--background-img);
   background-attachment: fixed;
   background-size: cover;
@@ -76,7 +76,7 @@
 
 .card__title {
   font-size: var(--font-size-text);
-  font-variation-settings: var(--font-wght-title);
+  font-variation-settings: 'wght'  var(--font-wght-title);
   padding: 4px 10px;
 }
 
@@ -157,7 +157,8 @@
   align-items: center;
   gap: 12px;
   margin: 0 25px 25px 0;
-  align-self: self-end;}
+  align-self: self-end;
+}
 
 .like-icon {
   inline-size: 30px;
@@ -258,7 +259,7 @@
 .popup-save {
   max-inline-size: 353px;
   max-block-size: 191px;
-  border: 2px solid #000; 
+  border: 2px solid #000;
   background-color: #FFFFFF;
   padding: 30px;
   display: none;
