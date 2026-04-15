@@ -235,7 +235,7 @@
 .button:hover span,
 .button:hover svg {
   mix-blend-mode: difference;
-  color: var(--button-text-color-hover); 
+  color: var(--button-text-color-hover);
 }
 
 .button:focus-visible {
