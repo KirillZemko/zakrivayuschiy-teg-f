@@ -34,4 +34,8 @@
 - SVG (спрайты и `<use>`)
 - JavaScript (работа с dialog)
 
+## Публикация в GitPage
+
 https://kirillzemko.github.io/zakrivayuschiy-teg-f/index.html
+
+https://github.com/kirillzemko/zakrivayuschiy-teg-f
